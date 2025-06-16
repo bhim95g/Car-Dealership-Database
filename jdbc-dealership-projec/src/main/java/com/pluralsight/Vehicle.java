@@ -5,10 +5,10 @@ public class Vehicle {
     private int year;
     private String make;
     private String model;
-    private String vehicleType;
     private String color;
     private int odometer;
     private double price;
+    private String vehicleType;
 
     //Constructor
     public Vehicle(int vin, int year, String make, String model, String color, int odometer, double price, String vehicleType) {

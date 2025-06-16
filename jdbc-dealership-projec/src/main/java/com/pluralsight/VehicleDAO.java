@@ -3,7 +3,7 @@ package com.pluralsight;
 import java.sql.*;
 import java.util.*;
 
-public class VehicleDao {
+public class VehicleDAO {
     public List<Vehicle> searchByPriceRange(double min, double max) throws SQLException {
         String sql = "SELECT * FROM vehicles WHERE price BETWEEN ? AND ?";
         try (Connection conn = DatabaseConnection.getConnection();
